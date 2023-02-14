@@ -1,0 +1,796 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+nav, nav a{
+    background-color: #14164A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+nav input {
+    width: 105px;
+    height: 38px;    
+    background-image: url(./Assets/Search\ icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+
+}
+
+.divider{
+    background-color: #4A4446;
+    height: 20px;
+}
+
+
+.statement{
+    background-color: #F8D937C9;
+    height: 123px;
+    color: #FFFEFE;
+    text-align: center;
+    font-family: Jaldi;
+    font-size: 38px;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+-webkit-text-stroke: 1.5px rgba(132, 111, 4, 0.447);
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch;
+    
+}
+
+.photos img{
+    ;
+}
+
+.contact{
+    background-image: url(./Assets/Rectangle\ 7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#contact{
+    text-align: center;
+}
+
+.welcome{
+    background-color: #14164ACF;
+    color: #FFFEFE;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome h1{
+    color: #F8D937C9;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+.welcome p{
+    width: 900px;
+    text-align: center;
+    display: flex;
+margin: auto;
+line-height: 200%;
+}
+
+
+.staff a{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: #FFFEFE;
+}
+
+
+
+
+
+/* Start of About Us Page CSS */
+
+
+.main_about {
+    background-color: #E7E5E5E8;
+    padding-bottom: 50px;
+
+}
+
+.about_header{
+margin-left: 190px;  
+padding-top: 25px;  
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.panels{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;  
+    column-gap: 20px;  
+
+}
+
+.leftpanel{
+    background-color: white;
+    width: 253px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.leftpanel a{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    padding-left: 15px;
+    background-color: #F4F1F1;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:60px;
+    font-size: 15px;
+}
+
+.sect1 a:link{
+color: blue;
+}
+
+
+.right.panel{
+    background-color: white;
+    padding: 35px;
+    line-height: 20px;
+}
+
+.right.panel header{
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 15px;;
+}
+
+.right.panel h3, #movetext{
+    margin-left: 25px;
+}
+
+.right.panel hr{
+    background-color: #EECC1C;
+    margin-right: 30px;
+    border: 2.5px solid #EECC1C;
+    margin-bottom: 10px;
+
+}
+
+ul{
+    margin-left: 35px;
+}
+
+li{
+    line-height: 22.81px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* Start of Login Page CSS */
+
+.acct_login{
+    background-image:url(./Assets/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.loginform h1{
+    font-family: 'JejuMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #EECC1C;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px black;
+}
+
+.loginbox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    width: 450px;
+    height: 550px;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 15px;
+}
+
+#email{
+    margin-top: 15px;
+}
+    
+
+#keepin{
+width: auto;
+height: auto;
+}
+
+#forgotPW{
+    float: right;
+}
+
+
+
+.signin{
+    width: 175px;
+    height: 41px;
+    color: white;
+    background: #000000;
+    border-radius: 30px;
+    text-align: center;
+   
+}
+
+.new_acct{
+    width: 175px;
+    height: 41px;
+    color: black;
+    background: #FFFEFE;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#legal{
+    display: flex;
+    margin-top: auto;
+    padding-bottom: 0px;
+    
+}
+
+
+/*Registration Page*/
+
+.registration{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.register h1{
+    text-align: center;
+    margin-top: 25px;
+}
+.register label{
+    font-family: Jaldi;
+font-size: 15px;
+font-weight:bold;
+line-height: 25px;
+text-align: center;
+
+    color: black;
+
+}
+
+
+ #fullname{
+    display: inline-flex;
+    width: 101%;
+}
+
+#l_name{
+padding-left: 45%;
+}
+
+
+#regbutton{
+    width: 85px;
+height: 34px;
+background: rgba(231, 229, 229, 0.91);
+border-style: hidden;
+margin-top: 10px;
+}
+
+
+
+/*BOOK LISTINGS CSS*/
+
+.genre_bar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.genre_bar a{
+    text-decoration: none;
+    display: flex;
+    padding-right: 30px;
+    color: #676666FC;
+    Font-family: Jaldi;
+    Font-size: 14.5px;
+    font-weight: 400;
+}
+
+
+.booklist h3{
+margin-left: 275px;
+font-family: Jaldi;
+font-size: 18px;
+font-weight: bold;
+}
+
+.book_toprow{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+
+.book_toprow img{
+    padding-right: 40px;
+}
+
+
+.book_bottomrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;}
+
+.book_bottomrow img{
+    margin-right:40px;
+    width: 183px;
+    height: 276px;    
+}
+
+
+
+
+
+/*Book Description CSS*/
+
+.description{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+   
+}
+
+.bookpreview{
+   margin-right: 25px;
+}
+
+#pic{
+    height: 500px;
+    width: 300px;
+}
+
+
+#checkout {
+    width: 166px;
+    height: 47px;
+    background: rgba(248, 217, 55, 0.79);
+    border-radius: 20px;
+    border-style: none;
+    font-size: 19px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+
+.bookinfo{
+    width: 820px;
+}
+
+.bookinfo h1{
+    text-align: left;
+    font-family: Jaldi;
+    
+}
+
+#publisher{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.fullinfo p{
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+
+
+
+/*Review Page CSS*/
+
+.reviewpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+.left_column{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+}
+
+#greytext{
+    color: #676666FC;
+    margin-bottom: 15px;
+}
+
+.ratingorder p{
+    padding-bottom: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 25px;
+    display: inline-flex;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.box1{
+    width: 140px;
+    height: 25px;
+    background: rgba(248, 217, 55, 0.79);
+    border-radius: 10px;
+
+}
+.box2{
+    width: 54px;
+    height: 25px;
+    background: rgba(248, 217, 55, 0.79);
+    border-radius: 10px;
+}
+
+.box3{
+    width: 12px;
+    height: 25px;
+    background: rgba(248, 217, 55, 0.79);
+    border-radius: 10px;
+}
+
+.reviewbutton{
+    width: 135px;
+    height: 32px;
+    background: #FFFEFE;
+    border: 1px solid rgba(184, 181, 181, 0.99);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+
+.bookpic img{
+    display: flex;
+    flex-direction: column;
+    width: 86px;
+    height: 115px;
+
+}
+
+.right_column{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.reviewinfo{
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;}
+
+.firstreview{
+    margin-top: 40px;
+  
+}
+
+.reviewer {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reviewer img{
+    float: left;
+    padding-right: 15px;
+}
+
+.reviewer2{
+    line-height: 25px;
+}
+
+#review{
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+/*Check Out CSS*/
+
+.checkout{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout_left{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 50%;
+    align-items: center;}
+
+.checkout_left header{
+    background-color: #14164A;
+    height: 130px;
+    width: 100%;
+    font-family: 'JejuMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(248, 217, 55, 0.79);
+    border: 1px solid #000000;
+
+}
+
+.contactform{
+    margin: 35px 45px 5px 45px;
+}
+
+#contact{
+}
+
+.contactline{
+    display: flex;
+align-items: end;    
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    float:right;
+}
+
+
+
+
+input{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#updates{
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 20px;}
+
+#multibox{
+    display: inline-flex;
+    width: 101.5%;
+
+}
+
+#checkout2{
+    width: 166px;
+    height: 47px;
+    background: rgba(248, 217, 55, 0.79);
+    border-radius: 20px;
+    border-style: none;
+    font-size: 19px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+
+.checkout_right{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E5E5E8;
+    height:100%;
+}
+
+.right_title{
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.book_co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    align-content: space-evenly;
+
+}
+
+figcaption{
+    text-align: center;
+}
+
+.notice{
+    display: flex;
+    width:50%;
+    text-align: center;
+    margin: auto;    
+    color: red;
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+
+
+
+/*Confirmation CSS*/
+
+.confirm_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    
+
+}
+
+.confirmation{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 18%;
+        
+   
+}
+
+#confirmp1{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#confirmp2{
+    font-family: 'JejuMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(248, 217, 55, 0.79);
+    padding-bottom: 15px;
+    -webkit-text-stroke: 1px black;
+}
+
+#confirmp3{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
